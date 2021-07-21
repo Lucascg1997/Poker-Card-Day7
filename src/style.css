@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.background {
+  background-color: green;
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poker-card {
+  background-color: white;
+  height: 40rem;
+  width: 30rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 5rem;
+  color: red;
+  padding: 2rem;
+}
+
+.card-value {
+  align-self: center;
+}
+
+.last-suit {
+  align-self: flex-end;
+}
+
+button {
+  margin-right: 2rem;
+  height: 4rem;
+  width: 10rem;
+  border-radius: 0.8rem;
+  border-color: red;
+  border-width: 0.5rem;
+  background-color: green;
+}
